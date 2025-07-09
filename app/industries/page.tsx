@@ -41,12 +41,11 @@ export default function IndustriesLandingPage() {
   return (
     <div className="flex flex-col">
       <section className="relative w-full h-[300px] md:h-[400px] flex items-center justify-center text-center text-white overflow-hidden bg-ezeu-dark">
-        {/* Removed Image component and overlay div */}
         <div className="relative z-20 px-4 md:px-6 max-w-4xl">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight text-white">
             Industries We Serve
           </h1>
-          <p className="mt-4 text-lg md:text-xl">Tailored solutions for diverse sectors.</p>
+          <p className="mt-4 text-lg md:text-xl text-white">Tailored solutions for diverse sectors.</p>
         </div>
       </section>
 
